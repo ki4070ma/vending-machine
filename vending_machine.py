@@ -16,6 +16,9 @@ class VendingMachine(object):
         print('changes: {}'.format(self.inserted_money))
         self.inserted_money = 0
 
+    def check_sum(self):
+        print(self.inserted_money)
+
 
 if __name__ == '__main__':
 
